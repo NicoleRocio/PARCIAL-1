@@ -1,0 +1,244 @@
+
+.bg-custom{
+    background: purple ;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:linear-gradient(to bottom, #FBF6F6, #858383);
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+    margin: 0;
+    padding: 0;
+}
+.table-bordered > tbody > tr,
+    .table-bordered > thead > tr {
+      border: 2px solid black;
+}
+.form-login{
+    margin: 0 auto;
+}
+.clase1{
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) ,url("../images/imagen5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    color: #FBF6F6;
+    margin: 0;
+    padding: 0;
+}
+.title-certificacion{
+    padding-top: 2%;
+    color: #FFFFFF;
+    font-family: "Karla", Sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 9.7px;
+    text-shadow: 0px 0px 7px #000000;
+}
+.clase1 p{
+    padding-top: 2%;
+    padding-left: 30%;
+    padding-right: 30%;
+    font-weight: bold;
+    font-size: 20px;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+.title-ofimatica{
+    padding-top: 2%;
+    color: #d9e961;
+    font-family: "Rammetto One", Sans-serif;
+    font-size: 70px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: -4px 2px 0px #000000;
+}
+a{
+    text-decoration: none;
+    color: yellow;
+}
+button{
+    font-family: "Montserrat", Sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    fill: #ffffff;
+    color: #ffffff;
+    background-color: #AFC30B;
+    padding: 20px 30px 20px 30px;
+}
+
+.presentation-text{
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+}
+.presentation p{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+.presentation{
+    display: flex;
+}
+.carousel .carousel-item{
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    background:#ccc;
+    width: 400px;
+    height: 400px;
+}
+.container{
+    width: 100%;
+    display: flex;
+    max-width: 1100px;
+}
+.card{
+    margin:50px !important;
+    width: 250px;
+    border-radius: 100px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    padding: 15px;
+    height: 400px;
+    transition: all 400ms ease;
+}
+.card:hover{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+}
+.card1{
+    margin-top: 30px;
+    background-color: #FFFFFF;
+    display: flex;
+    border-radius: 25px;
+    margin-right: 30%;
+}
+.card1 p{
+    display: flex;
+    text-align: center;
+}
+.card1 figure{
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.card2{
+    margin-top: 30px;
+    background-color: #FFFFFF;
+    display: flex;
+    border-radius: 25px;
+    margin-left: 30%;
+}
+.card2 p{
+    display: flex;
+    text-align: center;
+}
+.card2 figure{
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.card-hora{
+    margin-top: 50px;
+    margin-left:200px !important;
+    width: 250px;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    padding: 15px;
+    height: 300px;
+    transition: all 400ms ease;
+}
+.proceso{
+    padding-right: 10%;
+    padding-left: 15%;
+    display: block;
+}
+.proceso p{
+    font-weight: bold;
+}
+.present-content{
+    display: flex;
+}
+.present p{
+    font-weight: bold;
+    padding-top: 30px;
+    padding-left: 10%;
+    padding-right: 40px;
+}
+.present img{
+    display: flex;
+    width: 600px;
+    height: 300px;
+    border-radius: 15px;
+    padding-right: 5%;
+}
+.mision-vision-content{
+    display: flex;
+    align-items: center;
+}
+.mision{
+    margin-top: 50px;
+    margin-left:200px !important;
+    width: 450px;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    padding: 15px;
+    height: 300px;
+    transition: all 400ms ease;
+}
+.vision{
+    margin-top: 50px;
+    margin-left:200px !important;
+    width: 450px;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    padding: 15px;
+    height: 300px;
+    transition: all 400ms ease;
+}
+.card-docente{
+    margin-top: 50px;
+    margin-left:250px !important;
+    width: 450px;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    padding: 15px;
+    height: 300px;
+    transition: all 400ms ease;
+}
+.card-docente img{
+    border-radius: 250px;
+    width: 200px;
+    height: 200px;
+}
+.subtitulo{
+    height: 50px;
+    margin-bottom: 20px;
+}
+.img-tramite{
+    width: 100%;
+    height: 150px;
+}
